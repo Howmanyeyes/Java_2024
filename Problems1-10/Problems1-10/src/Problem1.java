@@ -1,5 +1,3 @@
-// File: PowerOfTwoChecker.java
-
 public class Problem1{
 
     public static boolean isPowerOfTwo(int number) {
