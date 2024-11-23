@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Problem7 {
+    int inst = 0;
     public static boolean isValidIPv4(String ip) {
         if (ip == null || ip.isEmpty()) {
             return false; 

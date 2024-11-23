@@ -6,7 +6,7 @@ public class PostGraduateStudent extends Student {
         super(firstName, lastName, averageGrade);
     }
 
-    @Override
+    // @Override
     public double getScholarship() {
         if (this.getAverageGrade() == 5.0) {
             return 150.0;
