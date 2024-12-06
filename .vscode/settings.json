@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "Problems1-10\\src"
+        "Problems1-10/src",
+        "Problems1-20/src"
     ],
     "java.project.referencedLibraries": []
 }
