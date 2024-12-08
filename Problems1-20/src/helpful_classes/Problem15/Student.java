@@ -5,7 +5,7 @@ public class Student {
     private String name;
     private String group;
     private int course;
-    private Map<String, Double> grades; // Subject -> Grade
+    private Map<String, Double> grades; 
 
     public Student(String name, String group, int course, Map<String, Double> grades) {
         this.name = name;
