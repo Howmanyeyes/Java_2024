@@ -1,10 +1,8 @@
-// File: src/Problem19.java
-
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 import java.util.Scanner;
-import java.util.List;
-import java.util.ArrayList;
 
 public class Problem19 {
     public static void main(String[] args) {

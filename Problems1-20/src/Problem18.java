@@ -1,5 +1,3 @@
-// File: src/Problem18.java
-
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -7,13 +5,14 @@ import java.util.Random;
 
 public class Problem18 {
     public static void main(String[] args) {
-        final int ELEMENTS_TO_ADD = 500_000;
-        final int RANDOM_ACCESSES = 100_000;
+        final int ELEMENTS_TO_ADD = 500000;
+        final int RANDOM_ACCESSES = 100000;
 
         List<Integer> arrayList = new ArrayList<>();
         List<Integer> linkedList = new LinkedList<>();
 
         long startTime = System.nanoTime();
+        populateList(arrayList, ELEMENTS_TO_ADD);
         long endTime = System.nanoTime();
         long arrayListAddTime = endTime - startTime;
         System.out.println("ArrayList: Time to add " + ELEMENTS_TO_ADD + " elements: " + formatTime(arrayListAddTime));
